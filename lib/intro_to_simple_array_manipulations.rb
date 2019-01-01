@@ -5,4 +5,4 @@ def using_push
 
 end
 
-def using_unshift()
+def using_unshift(new_neighborhood, updated_array)
