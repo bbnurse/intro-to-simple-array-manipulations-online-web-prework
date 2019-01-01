@@ -1,7 +1,7 @@
-def using_push
-  countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
-  next_country = "Niger"
-  countries_in_western_africa.push(next_country)
+def using_push(countries_in_western_africa, next_country)
+   countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
+   next_country = "Niger"
+   countries_in_western_africa.push(next_country)
 
 end
 
@@ -20,4 +20,4 @@ end
 def pop_with_args(chars_in_game_of_thrones)
   @chars_in_game_of_thrones =  ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane, aka The Mountain"]
   @chars_in_game_of_thrones.pop(2)
-end 
+end
